@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofoliu Drăgușin Cosmin</title>
+    <link rel="icon" type="image/x-icon" href="images/briefcase.png">
     <link rel="stylesheet" href="style.css">
     <!-- Remix Icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css">
