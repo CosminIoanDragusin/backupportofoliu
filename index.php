@@ -295,7 +295,7 @@
             <div class="address_box">
                 <i class="ri-home-2-line"></i>
                 <h2>Adresa</h2>
-                <p>Sebeș, Alba Iulia, Aleea Parc, bloc 25, apartment 03</p>
+                <p>Sebeș</p>
             </div>
         </div>
     </section>
