@@ -60,6 +60,8 @@ var blogSwiper = new Swiper('.blogSwiper',{
     }
 });
 
+// to force a reflow for having a bars menu
+
 //show nav
 
 let bar = document.querySelector('.bars');

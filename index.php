@@ -169,17 +169,17 @@
                     <img src="images/polymorphism_image.png" alt="o image de portofoliu">
                 </a>
             </div>
-            <div class="portfolio_img portfolio5 mix category-c ">
+            <div class="portfolio_img portfolio4 mix category-c ">
                 <a href="https://github.com/CosminIoanDragusin/Repetare_partial_final/tree/main" target="_blank">
                     <img src="images/repetare_image.PNG" alt="o image de portofoliu">
                 </a>
             </div>
-            <div class="portfolio_img portfolio6 mix category-c">
+            <div class="portfolio_img portfolio4 mix category-c">
                 <a href="https://github.com/CosminIoanDragusin/Stream_Lab_final_OOP/blob/main/Stream_lab_final_OOP/Stream_lab_final_OOP.cpp" target="_blank">
                     <img src="images/stream_oop_image.PNG" alt="o image de portofoliu">
                 </a>
             </div>
-            <div class="portfolio_img portfolio6 mix category-e">
+            <div class="portfolio_img portfolio5 mix category-e">
                 <a href="https://github.com/CosminIoanDragusin/Mathlab_facultate" target="_blank">
                     <img src="images/MATLAB-Symbol.jpg" alt="o image de portofoliu">
                 </a>
@@ -189,12 +189,12 @@
                     <img src="images/rstudio_image.jpg" alt="o image de portofoliu">
                 </a>
             </div>
-            <div class="portfolio_img portfolio6 mix category-a">
+            <div class="portfolio_img portfolio7 mix category-a">
                 <a href="https://github.com/CosminIoanDragusin/Sah-OOP" target="_blank">
                     <img src="images/sah_oop_java.PNG" alt="o image de portofoliu">
                 </a>
             </div>
-            <div class="portfolio_img portfolio6 mix category-a">
+            <div class="portfolio_img portfolio1 mix category-a">
                 <a href="https://github.com/CosminIoanDragusin/studentApplication" target="_blank">
                     <img src="images/projectjavafx.PNG" alt="o image de portofoliu">
                 </a>

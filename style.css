@@ -22,6 +22,7 @@
 
 body{
     overflow-x:hidden;
+     touch-action: pan-y; /* Allow only vertical scrolling */
 }
 
 header{
@@ -164,7 +165,7 @@ button{
 }
 
 button:hover{
-    box-shadow: 0 0 20px rgb(42, 42, 42, 0.439);
+    box-shadow: 0 0 20px rgba(42, 42, 42, 0.439);
     cursor: pointer;
 }
 
@@ -475,6 +476,7 @@ img{
 .category{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 15px;
@@ -500,17 +502,19 @@ img{
 
 .portfolios_images{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 10px;
+
 }
 
 .portfolio_img{
     position: relative;
     overflow: hidden;
+     border:solid var(--prime-color) 2px;
 }
 
 .portfolio_img:after{
-    content: 'Multi Images';
+    content: 'Java Student Management';
     position: absolute;
     top: 50%;
     left: 50%;
@@ -532,26 +536,31 @@ img{
 }
 
 .portfolio2:after{
-    content: "Slider Images";
+    content: "C# Student Management System";
 }
 
 .portfolio3:after{
-    content: "Youtube Video";
+    content: "WEB Student Management System";
 }
 
 .portfolio4:after{
-    content: "Multi Images Big";
+    content: "C++ OOP College Work";
 }
 
 .portfolio5:after{
-    content: "Big Slider Images";
+    content: "MathLab College Work";
 }
 
 .portfolio6:after{
-    content: "Slider Images";
+    content: "RStudio College Work";
 }
 
-.portfolios_img:hover:after{
+.portfolio7:after{
+    content: "Chess OOP Java";
+}
+
+
+.portfolio_img:hover:after{
     width: 100%;
     height: 100%;
     opacity: 1;
@@ -849,35 +858,126 @@ cursor: pointer;
     }
   }
   
-  @media (max-width:500){
-    .hero_content{
-        width: 100%;
-    }
-    .hero_content h1{
-        font-size: 3rem;
-        line-height: 4rem;
-    }
-    .social_icon{
-        display: none;
-    }
-    .about_top{
-        gap: 130px;
-    }
-    .headings h1{
-        font-size: 3rem;
-    }
-    .service_card i{
-        width: 140%;
-    }
-    .hireMe h1{
-        font-size: 2rem;
-        text-align: center;
-    }
-    .category{
-        flex-wrap: wrap;
-    }
-    .portfolios_images,
-    .address_det{
-        grid-template-columns: repeat(1,1fr);
-    }
+  @media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
   }
+
+  .menu {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .hero_content {
+    width: 100%;
+    padding: 10% 5%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero_content h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .hero_content h2 {
+    font-size: 1.2rem;
+  }
+
+  .hero_content p {
+    font-size: 1rem;
+  }
+
+  header {
+    height: auto;
+    background-attachment: scroll;
+    border-radius: 0;
+  }
+
+  .about_top {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about_image,
+  .about_small {
+    width: 100%;
+    position: static;
+    height: auto;
+  }
+
+  .about_content {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    }
+
+  .about_content h1 {
+    font-size: 2rem;
+  }
+
+  .about_content p {
+    font-size: 1rem;
+  }
+
+  .services_cards {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .services_card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .portfolios_images {
+    grid-template-columns: 1fr;
+  }
+
+  .headings h1 {
+    font-size: 2.2rem;
+  }
+
+  .headings h2 {
+    font-size: 1rem;
+  }
+
+  .headings p {
+    font-size: 0.95rem;
+  }
+
+  .hireMe h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .category button {
+    width: 100%;
+  }
+
+  .social_icon {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .logo a {
+    font-size: 1.5rem;
+  }
+
+  .bars {
+    display: block;
+  }
+
+  .percent {
+    height: 3px;
+  }
+}
